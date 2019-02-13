@@ -36,16 +36,25 @@ X = tf.placeholder(tf.float32, [None, 784])
 Y = tf.placeholder(tf.float32, [None, 10])
 
 # weights & bias for nn layers
-W = tf.Variable(tf.random_normal([784, 10]))
-b = tf.Variable(tf.random_normal([10]))
+W1 = tf.Variable(tf.random_normal([784, 50]))
+b1 = tf.Variable(tf.random_normal([50]))
+L1 = tf.nn.relu(tf.matmul(X, W1) + b1)
+
+
+W2 = tf.Variable(tf.random_normal([50, 50]))
+b2 = tf.Variable(tf.random_normal([50]))
+L2 = L1 = tf.nn.relu(tf.matmul(L1, W2) + b2)
+
+W3 = tf.Variable(tf.random_normal([50, 10]))
+b3 = tf.Variable(tf.random_normal([10]))
 
 # parameters
 learning_rate = 0.001
-batch_size = 5000
-num_epochs = 2000
+num_epochs = 100
+batch_size = 100
 num_iterations = int(mnist.train.num_examples / batch_size)
 
-hypothesis = tf.matmul(X, W) + b
+hypothesis = tf.matmul(L2, W3) + b3
 
 # define cost/loss & optimizer
 cost = tf.reduce_mean(
