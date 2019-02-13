@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388d1092-1e04-4f07-a39d-df05647abab4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/gan.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/gan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/day2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/gan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="562">
+              <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -319,12 +321,12 @@
       <workItem from="1550048875889" duration="161000" />
       <workItem from="1550049058991" duration="1301000" />
       <workItem from="1550050385407" duration="128000" />
-      <workItem from="1550050529958" duration="5381000" />
+      <workItem from="1550050529958" duration="3300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54161000" />
+    <option name="totallyTimeSpent" value="52080000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -337,6 +339,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -450,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="562">
+          <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
