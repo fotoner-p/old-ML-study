@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388d1092-1e04-4f07-a39d-df05647abab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/day2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,41 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/day2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-              <folding>
-                <element signature="e#454#477#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="53" selection-start-line="53" selection-end-line="61" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/gan.py">
+        <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
+            <state relative-caret-position="456">
+              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -98,44 +69,28 @@
         <option value="$PROJECT_DIR$/scripts/day2.py" />
         <option value="F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
         <option value="$PROJECT_DIR$/scripts/gan.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/MNIST_data/cnn_train.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/MNIST_data/cnn_train2.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/MNIST_data/cnn_copy.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn_copy.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2217" />
-    <option name="y" value="-17" />
-    <option name="width" value="1400" />
-    <option name="height" value="1100" />
+    <option name="x" value="2453" />
+    <option name="y" value="-13" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ML-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-study" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-study" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -147,6 +102,7 @@
       <recent name="D:\OneDrive\Pillow Studio\Pillow Research\w1\Fotone_p" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jaemu\Documents\GitHub\ML-study\scripts\MNIST_data" />
       <recent name="D:\OneDrive\Pillow Studio\Pillow Research\w1\Fotone_p\scripts" />
     </key>
   </component>
@@ -162,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gan">
+  <component name="RunManager" selected="Python.cnn_train2">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,12 +149,75 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/day2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/MNIST_data/cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fotone_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/MNIST_data/cnn_copy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fotone_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn_train2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fotone_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,6 +230,9 @@
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -226,79 +248,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neuralnet_mnist_batch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Fotone_p" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/deep-learning-from-scratch-master/ch03" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train_neuralnet (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Fotone_p" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/deep-learning-from-scratch-master/ch04" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train_neuralnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Fotone_p" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cnn_train2" />
+        <item itemvalue="Python.cnn_copy" />
+        <item itemvalue="Python.cnn_train" />
+        <item itemvalue="Python.cnn" />
         <item itemvalue="Python.gan" />
-        <item itemvalue="Python.train_neuralnet (1)" />
-        <item itemvalue="Python.day2" />
-        <item itemvalue="Python.neuralnet_mnist_batch" />
-        <item itemvalue="Python.train_neuralnet" />
       </list>
     </recent_temporary>
   </component>
@@ -322,11 +278,19 @@
       <workItem from="1550049058991" duration="1301000" />
       <workItem from="1550050385407" duration="128000" />
       <workItem from="1550050529958" duration="3300000" />
+      <workItem from="1550113567084" duration="1208000" />
+      <workItem from="1550628162566" duration="12624000" />
+      <workItem from="1550650442283" duration="2649000" />
+      <workItem from="1550653212040" duration="1962000" />
+      <workItem from="1550718216590" duration="8560000" />
+      <workItem from="1550732236814" duration="2382000" />
+      <workItem from="1550734741094" duration="1717000" />
+      <workItem from="1550736597662" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52080000" />
+    <option name="totallyTimeSpent" value="83804000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -343,7 +307,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14712153" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.37636763" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35101405" />
@@ -356,13 +320,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3251073" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32832617" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27896994" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.79186046" visible="true" weight="0.43283582" />
-      <window_info anchor="right" x="0" y="0" width="594" height="1216" id="Documentation" order="4" sideWeight="0.20813954" side_tool="true" weight="0.43759936" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.7869919" visible="true" weight="0.015991472" />
+      <window_info anchor="right" x="0" y="0" width="594" height="1216" id="Documentation" order="4" sideWeight="0.21300814" side_tool="true" weight="0.3054371" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49756098" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,20 +377,9 @@
     <entry file="file://$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04/gradient_2d.py" />
     <entry file="file://$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04/gradient_simplenet.py" />
     <entry file="file://$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
-    <entry file="file://F:/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/deep-learning-from-scratch-master/ch04/two_layer_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py" />
+    <entry file="file://F:/deep-learning-from-scratch-master/ch04/two_layer_net.py" />
+    <entry file="file://F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
     <entry file="file://$PROJECT_DIR$/scripts/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2394">
@@ -444,17 +397,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py">
+    <entry file="file://$PROJECT_DIR$/scripts/gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" selection-start-line="53" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="1387">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gan.py">
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
+        <state relative-caret-position="380">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_copy.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="323" column="20" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15105">
+          <caret line="818" column="25" selection-start-line="818" selection-start-column="25" selection-end-line="818" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
