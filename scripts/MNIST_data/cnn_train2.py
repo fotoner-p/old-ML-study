@@ -1,12 +1,12 @@
 import tensorflow as tf
 import numpy as np
-from tensorflow.keras.datasets.cifar10 import load_data
+from tensorflow.keras.datasets.cifar100 import load_data
 
 tf.set_random_seed(777)
 
 learning_rate = 0.001
 training_epochs = 200
-batch_size = 100
+batch_size = 128
 
 class MyCIFAR10Model:
     def __init__(self, sess, name):
@@ -20,47 +20,40 @@ class MyCIFAR10Model:
             self.X = tf.placeholder(tf.float32, shape=[None, 32, 32, 3])
             x_img = tf.reshape(self.X, [-1, 32, 32, 3])
 
-            self.Y = tf.placeholder(tf.float32, shape=[None, 10])
+            self.Y = tf.placeholder(tf.float32, shape=[None, 100])
 
             initializer = tf.contrib.layers.xavier_initializer()
 
-            self.conv1 = tf.layers.conv2d(inputs=x_img, filters=64, kernel_size=[5, 5], padding="SAME",
+            self.conv1 = tf.layers.conv2d(inputs=x_img, filters=64, kernel_size=[3, 3], padding="SAME",
                                      activation=tf.nn.relu, bias_initializer=initializer, kernel_initializer=initializer)
             self.pool1 = tf.layers.max_pooling2d(inputs=self.conv1, pool_size=[2, 2], padding="SAME", strides=2)
-            self.dropout1 = tf.layers.dropout(inputs=self.pool1, rate=0.5, training=self.training)
+            self.dropout1 = tf.layers.dropout(inputs=self.pool1, rate=0.3, training=self.training)
 
-            self.conv2 = tf.layers.conv2d(inputs=self.dropout1, filters=128, kernel_size=[5, 5], padding="SAME",
+            self.conv2 = tf.layers.conv2d(inputs=self.dropout1, filters=128, kernel_size=[3, 3], padding="SAME",
                                      activation=tf.nn.relu, bias_initializer=initializer, kernel_initializer=initializer)
             self.pool2 = tf.layers.max_pooling2d(inputs=self.conv2, pool_size=[2, 2], padding="SAME", strides=2)
-            self.dropout2 = tf.layers.dropout(inputs=self.pool2, rate=0.5, training=self.training)
+            self.dropout2 = tf.layers.dropout(inputs=self.pool2, rate=0.3, training=self.training)
 
             # Convolutional Layer #2 and Pooling Layer #2
-            self.conv3 = tf.layers.conv2d(inputs=self.dropout2, filters=256, kernel_size=[5, 5], padding="SAME",
+            self.conv3 = tf.layers.conv2d(inputs=self.dropout2, filters=256, kernel_size=[3, 3], padding="SAME",
                                      activation=tf.nn.relu, bias_initializer=initializer, kernel_initializer=initializer)
             self.pool3 = tf.layers.max_pooling2d(inputs=self.conv3, pool_size=[2, 2], padding="SAME", strides=2)
-            self.dropout3 = tf.layers.dropout(inputs=self.pool3, rate=0.5, training=self.training)
+            self.dropout3 = tf.layers.dropout(inputs=self.pool3, rate=0.3, training=self.training)
 
-            self.conv4 = tf.layers.conv2d(inputs=self.dropout3, filters=512, kernel_size=[5, 5], padding="SAME",
+            self.conv4 = tf.layers.conv2d(inputs=self.dropout3, filters=512, kernel_size=[3, 3], padding="SAME",
                                      activation=tf.nn.relu, bias_initializer=initializer, kernel_initializer=initializer)
             self.pool4 = tf.layers.max_pooling2d(inputs=self.conv4, pool_size=[2, 2], padding="SAME", strides=2)
-            self.dropout4 = tf.layers.dropout(inputs=self.pool4, rate=0.5, training=self.training)
+            #self.dropout4 = tf.layers.dropout(inputs=self.pool4, rate=0.5, training=self.training)
 
             # Dense Layer with Relu
-            self.flat = tf.contrib.layers.flatten(self.dropout4)
+            self.flat = tf.contrib.layers.flatten(self.pool4)
             self.dense5 = tf.layers.dense(inputs=self.flat, units=1024, activation=tf.nn.relu,
                                      bias_initializer=initializer, kernel_initializer=initializer)
             self.dropout5 = tf.layers.dropout(inputs=self.dense5, rate=0.5, training=self.training)
 
-            self.dense6 = tf.layers.dense(inputs=self.dropout5, units=512, activation=tf.nn.relu,
-                                     bias_initializer=initializer, kernel_initializer=initializer)
-            self.dropout6 = tf.layers.dropout(inputs=self.dense6, rate=0.5, training=self.training)
-
-            self.dense7 = tf.layers.dense(inputs=self.dropout6, units=256, activation=tf.nn.relu,
-                                     bias_initializer=initializer, kernel_initializer=initializer)
-            self.dropout7 = tf.layers.dropout(inputs=self.dense7, rate=0.5, training=self.training)
 
             # Logits (no activation) Layer: L5 Final FC 625 inputs -> 10 outputs
-            self.logits = tf.layers.dense(inputs=self.dropout7, units=10)
+            self.logits = tf.layers.dense(inputs=self.dropout7, units=100)
 
         self.cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self.logits, labels=self.Y))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self.cost)
@@ -118,8 +111,8 @@ def next_batch(num, data, labels):
 
 (x_train, y_train), (x_test, y_test) = load_data()
 
-y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 10), axis=1)
-y_test_one_hot = tf.squeeze(tf.one_hot(y_test, 10), axis=1)
+y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 100), axis=1)
+y_test_one_hot = tf.squeeze(tf.one_hot(y_test, 100), axis=1)
 
 sess = tf.Session()
 model = MyCIFAR10Model(sess, "sex")

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py" line="92" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="388d1092-1e04-4f07-a39d-df05647abab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ML_study$Fotone_p.coverage" NAME="Fotone_p Coverage Results" MODIFIED="1552393644916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Fotone_p$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1549531335659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Fotone_p$train_neuralnet.coverage" NAME="train_neuralnet Coverage Results" MODIFIED="1549595137363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/deep-learning-from-scratch-master/ch04" />
     <SUITE FILE_PATH="coverage/ML_study$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1550032242395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
@@ -35,12 +38,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            <state relative-caret-position="320">
+              <caret line="28" column="111" lean-forward="true" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="111" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -56,6 +71,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logits</find>
+      <find>dropout</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,15 +96,17 @@
         <option value="$PROJECT_DIR$/scripts/MNIST_data/MNIST_data/cnn_train2.py" />
         <option value="$PROJECT_DIR$/scripts/MNIST_data/MNIST_data/cnn_copy.py" />
         <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn_copy.py" />
+        <option value="$USER_HOME$/Desktop/Mask_RCNN-master/samples/demo.ipynb" />
         <option value="$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py" />
+        <option value="$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2453" />
-    <option name="y" value="-13" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="-818" />
+    <option name="y" value="21" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,7 +118,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,7 +148,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnn_train2">
+  <component name="RunManager" selected="Python.googlelenet">
+    <configuration name="Fotone_p" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="Fotone_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +259,9 @@
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -226,20 +277,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="googlelenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Fotone_p" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/MNIST_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/gan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.googlelenet" />
         <item itemvalue="Python.cnn_train2" />
         <item itemvalue="Python.cnn_copy" />
         <item itemvalue="Python.cnn_train" />
         <item itemvalue="Python.cnn" />
-        <item itemvalue="Python.gan" />
       </list>
     </recent_temporary>
   </component>
@@ -285,12 +333,19 @@
       <workItem from="1550718216590" duration="8560000" />
       <workItem from="1550732236814" duration="2382000" />
       <workItem from="1550734741094" duration="1717000" />
-      <workItem from="1550736597662" duration="622000" />
+      <workItem from="1550736597662" duration="4584000" />
+      <workItem from="1550743901297" duration="3158000" />
+      <workItem from="1552387617373" duration="3297000" />
+      <workItem from="1552460416565" duration="10091000" />
+      <workItem from="1552526203172" duration="1307000" />
+      <workItem from="1552531480838" duration="684000" />
+      <workItem from="1552561098832" duration="4096000" />
+      <workItem from="1552566014638" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83804000" />
+    <option name="totallyTimeSpent" value="111892000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -302,31 +357,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.37636763" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.21589689" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35101405" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34178612" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35054946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32832617" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32855567" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3251073" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27896994" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3605292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.7869919" visible="true" weight="0.015991472" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.7869919" weight="0.21535982" />
       <window_info anchor="right" x="0" y="0" width="594" height="1216" id="Documentation" order="4" sideWeight="0.21300814" side_tool="true" weight="0.3054371" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49756098" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49756098" weight="0.25778732" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,53 +434,6 @@
     <entry file="file://F:/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py" />
     <entry file="file://F:/deep-learning-from-scratch-master/ch04/two_layer_net.py" />
     <entry file="file://F:/deep-learning-from-scratch-master/ch04/train_neuralnet.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/day2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#454#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -449,10 +456,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Mask_RCNN-master/samples/demo.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generated_output/190.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generated_output/139.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generated_output/083.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generated_output/001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/day2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1940">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#454#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1472">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/cnn_train2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        <state relative-caret-position="320">
+          <caret line="28" column="111" lean-forward="true" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MNIST_data/googlelenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
