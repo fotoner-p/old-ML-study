@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-from tensorflow.keras.datasets.cifar100 import load_data
+from tensorflow.keras.datasets.cifar10 import load_data
 
 tf.set_random_seed(777)
 
@@ -20,7 +20,7 @@ class MyCIFAR10Model:
             self.X = tf.placeholder(tf.float32, shape=[None, 32, 32, 3])
             x_img = tf.reshape(self.X, [-1, 32, 32, 3])
 
-            self.Y = tf.placeholder(tf.float32, shape=[None, 100])
+            self.Y = tf.placeholder(tf.float32, shape=[None, 10])
 
             initializer = tf.contrib.layers.xavier_initializer()
 
@@ -53,7 +53,7 @@ class MyCIFAR10Model:
 
 
             # Logits (no activation) Layer: L5 Final FC 625 inputs -> 10 outputs
-            self.logits = tf.layers.dense(inputs=self.dropout7, units=100)
+            self.logits = tf.layers.dense(inputs=self.dropout5, units=10)
 
         self.cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self.logits, labels=self.Y))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self.cost)
@@ -111,8 +111,8 @@ def next_batch(num, data, labels):
 
 (x_train, y_train), (x_test, y_test) = load_data()
 
-y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 100), axis=1)
-y_test_one_hot = tf.squeeze(tf.one_hot(y_test, 100), axis=1)
+y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 10), axis=1)
+y_test_one_hot = tf.squeeze(tf.one_hot(y_test, 10), axis=1)
 
 sess = tf.Session()
 model = MyCIFAR10Model(sess, "sex")
